@@ -1,0 +1,30 @@
+# Ignore Python virtual environment
+backend/venv/
+*.pyc
+__pycache__/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore environment/config files
+.env
+*.log
+*.h5
+*.joblib
+
+# Ignore Node.js files
+node_modules/
+frontend/node_modules/
+
+# Ignore build files
+frontend/build/
+frontend/.pnp
+frontend/.pnp.js
+
+# Ignore testing and coverage files
+/coverage
+
+# Ignore IDE/Editor settings
+.vscode/
+.idea/

@@ -1,0 +1,21 @@
+Diabetes → Logistic Regression, Random Forest, Neural Networks
+Lung Cancer → CNN (for image data if using X-ray scans)
+Parkinson’s Disease → SVM, LSTMs (if using voice data)
+
+backend/
+│── models/               # Stores trained models
+│   ├── diabetes_logistic.pkl
+│   ├── diabetes_rf.pkl
+│   ├── diabetes_nn.h5
+│   ├── lung_cancer_cnn.h5
+│   ├── parkinsons_svm.pkl
+│   ├── diabetes_scaler.pkl
+│   ├── parkinsons_scaler.pkl
+│── routes/               # API routes
+│   ├── predict.py
+│── train_diabetes.py     # Training script for diabetes model
+│── train_lung_cancer.py  # Training script for lung cancer model
+│── train_parkinsons.py   # Training script for Parkinson’s model
+│── app.py                # Flask app
+│── requirements.txt      # Dependencies
+│── venv/   
